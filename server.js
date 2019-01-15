@@ -13,10 +13,9 @@ app.listen(port, () => {
 
 app.post('/', (req, res) => {
 
-  
   // const body = req.body;
-  // branch = body["push"]["changes"][0]["new"]["name"];
-
+  branch = body["ref"].split("/").pop();
+  console.log(branch)
   // if(branch == "dev"){
   //   console.log("Run Dev Script");
   //   shell.exec('./deploy-dev.sh');
