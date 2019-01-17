@@ -12,7 +12,7 @@ git checkout dev
 git pull origin dev
 
 npm install
-ng build --prod --buildOptimizer=false
+ng build --buildOptimizer=false --prod
 
 
 echo "Copying files..."

@@ -14,7 +14,7 @@ git checkout exp
 git pull origin exp
 
 npm install
-ng build --prod --buildOptimizer=false
+ng build --buildOptimizer=false --prod
 
 
 echo "#######################################"
